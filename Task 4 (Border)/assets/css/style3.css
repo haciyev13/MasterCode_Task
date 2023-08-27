@@ -1,0 +1,15 @@
+.solid{
+    width: 100px;
+    height: 50px;
+    border: 8px solid red;
+}
+.dotted{
+    width: 100px;
+    height: 50px;
+    border: 8px dotted red;
+}
+.dashed{
+    width: 100px;
+    height: 50px;
+    border: 8px dashed red;
+}

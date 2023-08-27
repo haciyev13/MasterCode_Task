@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 200vh;
+  }
+  .left-area {
+    float: left;
+    width: 48%;
+    margin: 13px;
+  }
+  .right-area {
+    float: right;
+    width: 48%;
+    margin: 13px;
+  }
+  p,
+  h2 {
+    margin: 15px;
+  }
+  .fixed {
+    background-color: palevioletred;
+    height: 70px;
+    padding: 25px;
+    margin: 10px;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    width: 50%;
+  }
+  .sticky {
+    background-color: rgb(203, 183, 218);
+    height: 70px;
+    padding: 25px;
+    margin: 10px;
+    font-size: 20px;
+    position: sticky;
+    top: 10px;
+  }

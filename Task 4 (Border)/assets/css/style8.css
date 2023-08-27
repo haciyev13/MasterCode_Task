@@ -1,0 +1,24 @@
+.dotted{
+    border: 2px dotted black;
+}
+.dashed{
+    border: 2px dashed black;
+}
+.solid{
+    border: 2px solid black;
+}
+.double{
+    border: 5px double black;
+}
+.groove{
+    border: 6px groove rgb(16, 167, 16);
+}
+.ridge{
+    border: 7px ridge rgb(108, 229, 108);
+}
+.inset{
+    border: 7px inset rgb(111, 222, 111);
+}
+.outset{
+    border: 7px outset rgb(111, 222, 111);
+}

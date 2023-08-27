@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  header {
+    background-color: rgb(36, 87, 205);
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+    margin: 10px;
+  }
+  p {
+    padding-top: 10px;
+  }
+  .hero-area {
+    float: left;
+  }
+  aside {
+    width: 45%;
+  }
+  .hero {
+    background-color: rgb(202, 152, 227);
+    height: 200px;
+    text-align: center;
+    margin: 10px;
+  }
+  .sidebar {
+    background-color: green;
+    height: 320px;
+    text-align: center;
+    margin: 10px;
+  }
+  main {
+    width: 55%;
+  }
+  .content {
+    background-color: rgb(229, 200, 70);
+    height: 300px;
+    text-align: center;
+    margin: 10px;
+  }
+  .content p {
+    padding: 10px;
+  }
+  .extra-content {
+    background-color: rgb(61, 61, 58);
+    height: 220px;
+    text-align: center;
+    margin: 10px;
+  }
+  .related {
+    float: left;
+  }
+    section::after{
+    display: block;
+    content: "";
+    clear: both;
+  }
+  .related-img {
+    background-color: rgb(69, 144, 85);
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+  }
+  .related-post {
+    background-color: rgb(219, 144, 157);
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+  }
+  .img {
+    width: 60%;
+  }
+  .post {
+    width: 40%;
+  }
+  footer {
+    background-color: rgb(255, 157, 0);
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 10px;
+  }

@@ -1,0 +1,13 @@
+p {
+    background-color: red;
+  }
+  .first-text {
+    width: 550px;
+    padding-bottom: 70px;
+    margin-right: 70px;
+  }
+  .second-text {
+    width: 550px;
+    padding-bottom: 130px;
+    padding-right: 100px;
+  }

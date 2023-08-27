@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 20px;
+}
+.div1{
+    width: 300px;
+    height: 200px;
+}
+.div2{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+}
+.div3{
+    width: 700px;
+    height: 200px;
+    position: relative;
+    bottom: 250px;
+}
+.div4{
+    width: 200px;
+    height: 500px;
+    position: relative;
+    bottom: 730px;
+    left: 600px;
+}

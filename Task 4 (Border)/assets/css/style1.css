@@ -1,0 +1,12 @@
+.blue{
+    border-style: dotted;
+    border-color: blue;
+}
+.yellow{
+    border-style: dashed;
+    border-color: yellow;
+}
+.green{
+    border-style: solid;
+    border-color: green;
+}

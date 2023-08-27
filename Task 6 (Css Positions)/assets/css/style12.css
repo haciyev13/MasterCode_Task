@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: teal;
+}
+.header{
+    background-color: yellow;
+    padding: 15px;
+    text-align: center;
+    margin: 15px;
+}
+.header p{
+    margin-left: 160px;
+}
+.article{
+    background-color: rgb(244, 185, 25);
+    padding: 15px;
+    height: 500px;
+    text-align: center;
+    margin: 15px;
+}
+.footer{
+    background-color: yellow;
+    padding: 15px;
+    text-align: center;
+    margin: 15px;
+}
+.footer p{
+    margin-left: 160px;
+}

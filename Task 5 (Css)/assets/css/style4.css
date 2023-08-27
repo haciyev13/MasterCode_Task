@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border{
+    border: 20px solid green;
+    margin: 10px;
+}
+.container{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+h1{
+    font-size: 60px;
+}
+h3{
+    font-size: 25px;
+    margin: 10px 0;
+}
+.find{
+    font-size: 23px;
+    margin: 10px 0;
+}
+ul{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.blog{
+    font-size: 20px;
+    font-weight: bolder;
+}
+h5{
+    font-size: 18px;
+    margin: 15px 0;
+}
+p{
+    font-weight: 500;
+}
+.read{
+    color: greenyellow;
+}

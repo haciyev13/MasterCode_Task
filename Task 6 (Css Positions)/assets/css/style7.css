@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div{
+    width: 200px;
+    height: 140px;
+    background-color: rgb(190, 155, 222);
+    margin: 10px;
+    float: left;
+}
+.container{
+    margin: 10px;
+    background-color: aquamarine;
+    width: 50%;
+    height: 150px;
+    float: right;
+    margin-top: 30px;
+}
+.divs{
+    width: 200px;
+    height: 150px;
+    background-color: brown;
+    float: left;
+    margin-left: 30px;
+    color: white;
+    text-align: center;
+}
+.div2{
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+}
+.container1{
+    margin: 10px;
+    background-color: aquamarine;
+    width: 50%;
+    height: 150px;
+    float: right;
+    margin-top: 30px;
+}
+.divs1{
+    width: 200px;
+    height: 150px;
+    background-color: brown;
+    float: left;
+    margin-left: 120px;
+    color: white;
+    text-align: center;
+}

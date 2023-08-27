@@ -1,0 +1,18 @@
+ul li{
+    list-style-type: none;
+}
+.red{
+    color: red;
+}
+.href-blue{
+    color: blue;
+}
+.border{
+    border: 3px dashed black;
+}
+.border-red{
+    color:red;
+}
+.table-blue{
+    color: blue;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 3px solid gray;
+    height: 400px;
+    width: 600px;
+    margin: 30px;
+    padding: 20px;
+    position: relative;
+}
+p{
+    margin-bottom: 10px;
+}
+.target{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    border-radius: 5px;
+}

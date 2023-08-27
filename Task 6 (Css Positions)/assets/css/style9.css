@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.container{
+    background-color: rgb(228, 218, 66);
+    margin: 5px;
+    height: 250px;
+}
+.div-left{
+    float: left;
+    width: 60%;
+}
+.div-right{
+    width: 40%;
+    float: right;
+}

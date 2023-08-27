@@ -1,0 +1,12 @@
+.border-red{
+    border: 5px dotted red;
+}
+.border-green{
+    border: 5px solid green;
+}
+.border-red-green{
+    border-top: 3px solid red;
+    border-left: 3px solid yellow;
+    border-right: 3px solid green;
+    border-bottom: 3px solid blue;
+}

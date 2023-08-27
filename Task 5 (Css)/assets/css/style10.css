@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.border-aqua{
+    border: 2px dashed black;
+    width: 700px;
+    height: 400px;
+    background-color: aquamarine;
+}
+.border-solid{
+    border: 10px solid black;
+    width: 500px;
+    height: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(218, 254, 164);
+}
+p{
+    background-color: white;
+    margin: 40px auto;
+    padding: 20px;
+}

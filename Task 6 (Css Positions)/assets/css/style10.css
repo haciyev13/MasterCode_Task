@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(75, 144, 201);
+}
+p{
+    margin: 0 10px;
+}
+.container{
+    border: 2px solid yellow;
+    margin: 20px 10px;
+}
+.container::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.div{
+    background-color: yellowgreen;
+    width: 250px;
+    padding: 10px;
+    float: left;
+    border: 2px solid black;
+}
+.div1{
+    height: 200px;
+}
+.div2{
+    height: 300px;
+}
+.div3, .div4{
+    height: 260px;
+}
