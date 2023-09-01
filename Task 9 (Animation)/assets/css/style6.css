@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: rgb(238, 163, 72);
+    padding: 20px;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 45px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(15, 136, 136);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bolder;
+    transition-property: transform;
+    transition-duration: .5s;
+}
+
+.box1:hover{
+    transform: rotateX(360deg);
+}
+.box2:hover{
+    transform: rotateY(360deg);
+}
+.box3:hover:hover{
+    transform: RotateZ(360deg);
+}

@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container:hover > .firstBox > .dot {
+    animation-name: dotAnimation;
+    animation-duration: 1s;
+    animation-delay: calc(0.5s * var(--i));
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+  }
+
+  .container:hover > .secondBox > .dot {
+    animation-name: dotAnimation;
+    animation-duration: 1s;
+    animation-delay: calc(0.5s * var(--i));
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+  }
+
+    .firstBox:first-child,
+    .secondBox:last-child {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+   div:last-child .dot {
+    background-color: blue !important;
+  }
+  .dot {
+    height: 100px;
+    width: 25px;
+    background-color: aquamarine;
+  }
+  
+  
+  @keyframes dotAnimation {
+    0% {
+      transform: scaleY(1);
+    }
+    100%{
+        transform: scaleY(2);
+    }
+  }

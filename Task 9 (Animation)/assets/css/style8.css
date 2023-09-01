@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #090;
+    padding: 15px 0;
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    width: 100%;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.box1 {
+    animation-direction: normal;
+}
+
+.box2 {
+    animation-direction: reverse;
+}
+
+.box3 {
+    animation-direction: alternate;
+}
+
+.box4 {
+    animation-direction: alternate-reverse;
+}
+
+@keyframes move {
+    from {
+        margin-left: 90%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}

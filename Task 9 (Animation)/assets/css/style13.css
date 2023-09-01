@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,p{
+    padding: 15px;
+}
+.box{
+    border: 2px solid #000;
+    width: 140px;
+    margin-left: 15px;
+    padding: 20px;
+    transform: skew(-15deg);
+}
+.box:hover{
+    transform: skewX(15deg);
+    cursor: pointer;
+    color: green;
+    border: 2px solid green;
+}

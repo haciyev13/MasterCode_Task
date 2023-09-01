@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,p{
+    color: green;
+    text-align: center;
+    padding-top: 50px;
+}
+h1{
+    font-size: 40px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 40vh;
+}
+.boxes .box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(4, 4, 120);
+}
+.container:hover .boxes .box{
+    animation-name: move;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-delay: calc(.5s* var(--i));
+}
+
+@keyframes move{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(-180deg);
+    }
+}

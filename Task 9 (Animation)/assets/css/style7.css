@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 40px;
+}
+h1,p{
+    padding: 5px;
+}
+.boxs{
+    display: flex;
+    padding: 10px;
+    font-size: 25px;
+}
+.boxs .box-num{
+    padding-right: 15px;
+    transition-property: transform;
+    transition-duration: calc(1s * var(--i));
+}
+.container:hover .box-num{
+    transform: scale(2.5);
+    color: green;
+}

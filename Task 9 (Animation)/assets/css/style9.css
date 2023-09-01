@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.box{
+    width: 600px;
+    height: 400px;
+    background-color: purple;
+}
+.box:hover{
+    transform: scale(1.2);
+}

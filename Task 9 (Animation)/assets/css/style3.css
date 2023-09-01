@@ -1,0 +1,29 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200px;
+    position: relative;
+    right: 300px;
+    height: 150px;
+    margin: 10px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transform: translate(300px);
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
+.box2:hover{
+    width: 400px;
+}
+.box1:hover{
+    width: 400px;
+}

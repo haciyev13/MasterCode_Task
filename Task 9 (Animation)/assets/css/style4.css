@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin-top: 20px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+.box1{
+    position: absolute;
+    background-color: red;
+    left: 100px;
+    top: 0;
+
+
+}
+.box2{
+    background-color: yellow;
+    position: absolute;
+    right: 100px;
+    top: 0;
+}
+.box3{
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+}
+.box4{
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-animation{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 2s ease-in-out;
+
+}
+
+.box-animation:hover .box1{
+    transition-duration: 800ms;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform-origin: top left;
+}
+.box-animation:hover .box2{
+    transition-duration: 800ms;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform-origin: top right;
+}
+.box-animation:hover .box3{
+    transition-duration: 800ms;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform-origin: bottom right;
+}
+.box-animation:hover .box4{
+    transition-duration: 800ms;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform-origin: bottom left;
+}
+
+/* .box-animation:hover .box1{
+    transform: rotate(-90deg);
+    transform-origin: top left;
+}
+.box-animation:hover .box2{
+    transform: rotate(90deg);
+    transform-origin: top right;
+
+}
+.box-animation:hover .box3{
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+
+}
+.box-animation:hover .box4{
+    transform: rotate(-90deg);
+    transform-origin: bottom right;
+
+} */

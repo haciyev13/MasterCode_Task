@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .container:hover > .animated > div {
+    animation-name: firstAnimated;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+  }
+  .container:hover > .notAnimated > div {
+    animation-name: secondAnimated;
+    animation-duration: 2s;
+    animation-timing-function: step-start;
+  }
+
+  /* .container:hover > .notAnimated > div {
+    width: 50;
+  } */
+  
+  .container > div {
+    border: 1px solid black;
+    width: 40%;
+    height: 5vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  
+  .animated > div,
+  .notAnimated > div {
+    background-color: blue;
+    position: absolute;
+    width: 40%;
+    height: 4.8vh;
+  }
+  @keyframes firstAnimated {
+    0% {
+      width: 40%;
+    }
+    25% {
+      width: 50%;
+    }
+    50% {
+      width: 50%;
+    }
+    75% {
+      width: 60%;
+    }
+    100% {
+      width: 40%;
+    }
+  }
+  
+  @keyframes secondAnimated {
+    0% {
+      width: 40%;
+    }
+    25% {
+      width: 50%;
+    }
+    50% {
+      width: 50%;
+    }
+    75% {
+      width: 60%;
+    }
+    100% {
+      width: 40%;
+    }
+  }
