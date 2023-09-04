@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 70%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  padding-right: 10px;
+  align-items: center;
+  border-bottom: 2px solid lightgray;
+  margin-bottom: 12px;
+}
+
+.nav a {
+  padding: 7px;
+  color: gray;
+}
+
+header i {
+  font-size: 25px;
+  color: skyblue;
+}
+
+.login button {
+  background-color: lightgreen;
+  padding: 12px 20px;
+  border-radius: 20px;
+  color: white;
+  border: 0px;
+  margin-left: 10px;
+}
+
+/* MAIN */
+
+section {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 20px;
+  height: 80vh;
+}
+
+section > div:first-child {
+  width: 30%;
+  height:100% ;
+  background-color: lightgray;
+  padding: 15px;
+  line-height: 1.5;
+  border-top: 5px solid violet;
+}
+
+section > div:last-child {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  height:100% ;
+}
+
+.img {
+  width: 100%;
+  height: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=2000);
+}
+
+h1{
+  color:skyblue;
+  font-size: 35px;
+  margin: 10px 0;
+}
+
+/* footer */
+
+footer {
+  margin-top: 40px;
+  background-color: gray;
+  text-align: center;
+  padding: 10px;
+}
+
+footer h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+footer p {
+  color: black;
+}
