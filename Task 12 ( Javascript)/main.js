@@ -1,12 +1,17 @@
 const userName = prompt("Adinizi daxil edin");
 
 if (userName === "admin") {
-  const password = prompt("Parolunuzu daxil edin");
+  let password = prompt("Parolunuzu qeyd edin");
   if (password === "TheMaster") {
     alert("Welcome");
+  } else if (password) {
+    alert("Wrong Password");
   } else {
-    alert("Parolunuz sehvdir!");
+    alert("Ganceled");
   }
+} else if (userName) {
+  alert("I don't know you");
 } else {
-  alert("Adiniz duzgun deyil");
+  userName = false;
+  alert("Ganceled");
 }
