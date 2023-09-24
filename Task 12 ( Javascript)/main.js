@@ -4,7 +4,7 @@ if (userName === "admin") {
   let password = prompt("Parolunuzu qeyd edin");
   if (password === "TheMaster") {
     alert("Welcome");
-  } else if (password) {
+  } else if (!password) {
     alert("Wrong Password");
   } else {
     alert("Ganceled");
@@ -15,3 +15,4 @@ if (userName === "admin") {
   userName = false;
   alert("Ganceled");
 }
+
