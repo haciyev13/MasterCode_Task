@@ -4,15 +4,13 @@ if (userName === "admin") {
   let password = prompt("Parolunuzu qeyd edin");
   if (password === "TheMaster") {
     alert("Welcome");
-  } else if (!password) {
-    alert("Wrong Password");
-  } else {
+  } else if (password === null) {
     alert("Ganceled");
+  } else {
+    alert("Wrong Password");
   }
-} else if (userName) {
-  alert("I don't know you");
-} else {
-  userName = false;
+} else if (userName === null) {
   alert("Ganceled");
+} else {
+  alert("I don't know you");
 }
-
